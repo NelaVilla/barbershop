@@ -1,55 +1,116 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Barber Shop</title>
-<link rel="stylesheet" href="assets/css/style.css">
 
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Barber Shop</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
+</head>
 
+<body>
+  <!---barra de navegacion--->
 
-  </head>
-  <body>
-    <!---barra de navegacion--->
+  <nav class="navbar navbar-expand-lg navegacion">
+    <img src="assets/img/logo.png" class="navegacion__logo" alt="logo">
 
-      <nav class="navbar navbar-expand-lg navbar-dark navegacion">
-        <img src="assets/img/logo.png" class="navegacion__logo" alt="logo">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Nosotros <span class="sr-only">span></a>
-            <a class="nav-item nav-link" href="#">Trabajos</a>
-            <a class="nav-item nav-link" href="#">Blog</a>
-            <a class="nav-item nav-link" href="#">Horas</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
-          </div>
-        </div>
-      </nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+          <a class="nav-item nav-link active texto__color" href="#">Nosotros <span class="sr-only">span></a>
+          <a class="nav-item nav-link texto__color" href="#">Trabajos</a>
+          <a class="nav-item nav-link texto__color" href="#">Blog</a>
+          <a class="nav-item nav-link texto__color" href="#">Horas</a>
+          <a class="nav-item nav-link texto__color" href="#">Contacto</a>
+      </div>
+    </div>
+  </nav>
 
-    <!---header-->
+  <!---header-->
   <header class="header">
-  <h1 class="header__titulo-tamaño">5 formas de cuidar tu corte de cabello</h1>
-</div>
-</div>
+    <h1 class="header__titulo-tamaño">5 formas de cuidar tu corte de cabello</h1>
+    </div>
+    </div>
   </header>
+<!---blog--->
 
-  <!---section columna--- >
-    <section>
+<section class="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 blog__texto">
+<p class="blog__texto--titulo">12 de Abril 2019</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum et arcu eget molestie. Mauris vestibulum metus non dolor pulvinar, a posuere augue aliquam. Duis non ipsum a libero mollis pretium et vitae mauris.</p>
+
+<p>Quisque dapibus velit nec mauris molestie maximus id eget leo. Aenean maximus euismod ultrices. Mauris finibus luctus eros, ut rutrum neque aliquet in. Proin dictum nisl nec aliquet consectetur. Proin tristique aliquam felis vel laoreet. Suspendisse felis enim, fermentum et urna ut, faucibus molestie velit.</p>
+
+<p>Proin porttitor volutpat lectus, at lobortis ipsum pharetra et. Donec fermentum cursus massa, ut egestas mauris tincidunt at. Nunc id faucibus sapien. Morbi tristique efficitur facilisis. Sed facilisis vitae leo ultrices interdum. Suspendisse leo tortor, maximus nec ipsum eget, efficitur iaculis arcu. Ut lacinia tempor faucibus.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam vel auctor elit. Vestibulum luctus quam quis sapien congue condimentum.</p>
+
+<p>Fusce risus nulla, elementum sit amet sem a, pharetra interdum diam. Cras vitae ante vel nisl posuere placerat quis et nisl. Suspendisse id dapibus magna. Praesent mattis aliquet dolor, id ultrices dolor hendrerit eget. Nullam sed mollis sapien. Proin bibendum nisl consequat massa condimentum bibendum. In quis fringilla arcu. Etiam dolor nulla, sodales dictum porta in, efficitur at urna. Proin libero elit, dignissim vitae mi id, congue ullamcorper quam. Maecenas quis lorem id neque pellentesque faucibus. Suspendisse vitae leo fringilla, blandit ante eu, tempor diam. </p>
+
+      </div>
+    </div>
+    <div class="container blog__botones">
+      <button type="button" class="btn btn-secondary btn-md blog__botones--tamaño" name="button">Compartir</button>
+      <button type="button" class="btn btn-secondary btn-md blog__botones--tamaño" name="button">Comentar en Twitter</button>
+    </div>
+  </div>
   </section>
   <!---nombre autora--->
-  <article class="">
+  <article class="autora">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-2 autora__foto">
+        <img src="assets/img/naomi-thai.png" alt="foto-naomi" class="autora__foto--tamaño"></div>
+        <div class="col-md-3 autora__nombre">
+          <h2 class="autora__nombre--titulo">Naomi Thai</h2>
+          <a href="#" class="autora__alerta--twitter">@Naothaidepelos.com</a>
+        </div>
+<div class=" col-md-7 autora__bio">
+  <p>Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. </p>
 
-  </article>
+</div>
+      </div>
+    </div>
+    </article>
   <!---paginacion--->
-  <article class="">
-
+  <article class=" paginacion">
+    <div class="container paginacion__lista">
+      <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center paginacion__lista--forma">
+    <li class="page-item "><a class="page-link lista__color1 boton__ant" href="#">Anterior</a></li>
+    <li class="page-item "><a class="page-link lista__color2" href="#">1</a></li>
+    <li class="page-item"><a class="page-link lista__color2" href="#">2</a></li>
+    <li class="page-item"><a class="page-link lista__color2" href="#">3</a></li>
+    <li class="page-item "><a class="page-link lista__color2 boton__sig" href="#">Siguiente</a></li>
+  </ul>
+</nav></div>
   </article>
   <!---Footer--->
-    <footer>
+  <footer>
+    <div class="footer">
+      <div class="container footer__logo">
+        <div class="row">
+          <div class="col-12 footer__logo-col">
+        <img src="assets/img/logo.png" alt="logo-footer" class="footer__logo--tamaño">
+        </div>
+      </div>
+    </div>
+    </div>
   </footer>
+
+  <!---jquery y otros--->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
 </html>

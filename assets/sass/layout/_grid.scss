@@ -1,0 +1,44 @@
+//texto principal blog
+
+.blog__texto {
+  background-color: $white;
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $nickel;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.blog__texto--titulo {
+  font-family: $playfair;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $nickel;
+}
+//area datos y foto autora
+
+.autora {
+  border-top: 2px solid $platinum;
+  margin: 5%;
+  padding: 3%;
+}
+
+.autora__foto--tamaño {
+  border-radius: 135px;
+  border: 2px solid $lightgray;
+}
+//---paginacion---//
+
+.paginacion {
+  background-color: $platinum;
+}
+
+.paginacion__lista {
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  ul {
+    margin-bottom: 0;
+  }
+}

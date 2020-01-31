@@ -1,12 +1,17 @@
 .navegacion__logo{
   width: 40px;
   height: 20px;
-  
+
 }
 .navegacion{
   background-color: $eerie-black;
-  color: $white;
   padding-left: 10%;
   padding-right: 10%;
 
+}
+.texto__color{
+  color: $white;
+}
+.texto__color:hover{
+  color: $rudy-pink;
 }

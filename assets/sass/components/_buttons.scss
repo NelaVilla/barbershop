@@ -1,0 +1,46 @@
+
+//botones seccion blog
+.blog__botones--tamaño {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: $nickel;
+  border-radius: 80px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: $roboto;
+  font-size: $small;
+  margin-bottom: 1%;
+}
+
+.blog__botones--tamaño:hover {
+  background-color: $lightgray;
+  border: 1px solid $lightgray;
+}
+
+.blog__botones--tamaño:focus {
+  border: 1px $lightgray;
+}
+//cambio color link twitter seccion autora
+.autora__alerta--twitter:hover{
+  color:$raisin-black;
+  text-decoration: none;
+}
+//botones paginacion
+
+.lista__color1 {
+  color: $nickel;
+}
+
+.lista__color2 {
+  color: $eerie-black;
+}
+
+.lista__color1:hover {
+  background-color: $nickel;
+  color: $white;
+}
+
+.lista__color2:hover {
+  background-color: $nickel;
+  color: $white;
+}

@@ -1,0 +1,29 @@
+
+//textos seccion autora
+.autora__bio{
+  text-align: justify;
+  font-family: $roboto;
+  font-size: $medium;
+
+}
+
+.autora__nombre--titulo{
+  font-family: $playfair;
+  font-style: oblique;
+  font-weight: $bold;
+  font-size: $x-large;
+  margin: 31.55px;
+}
+
+.autora__alerta--twitter{
+  font-family: $roboto;
+  font-size: $large;
+  color: $spanish-pink;
+  margin-left: 10%;
+}
+.autora__bio{
+  font-family: $roboto;
+  font-size: $small;
+  color: $nickel;
+  line-height: 35px;
+}
